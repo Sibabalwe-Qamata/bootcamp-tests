@@ -13,7 +13,7 @@ describe('The findItemOver20 function' , function(){
     
     
     
-    it('It should return false since the returned products that have quantity higher than the threshold given is incorrect.' , function(){
+    it('Expected result is not deeply equal to the input threshold.' , function(){
         
         assert.notDeepEqual(findItemsOver20(
     [

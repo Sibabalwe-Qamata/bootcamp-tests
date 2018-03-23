@@ -1,5 +1,5 @@
 describe('The isFromBellville function' , function(){
-    it('Expected to  return true for all number plates that they from Bellville' , function(){
+    it('It should return true for all number plates that they from Bellville' , function(){
         
         assert.equal(isFromBellville('CY 2014 P '),true);
         assert.equal(isFromBellville('CY 2015 Y'),true);

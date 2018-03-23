@@ -18,10 +18,10 @@ it('It should return false if the day passed is not a weekday' , function(){
         assert.equal(isWeekday('Sunday'),false);
 
     });
-it('It should return false if the variable passed in not a Weekday (i.e Name of a person has been passed)' , function(){
+it('It should return false if the variable passed in not a Weekday (i.e Name of a person has been passed e.t.c)' , function(){
         
       
-        assert.notDeepEqual(isWeekday('sunday'),false);
+        assert.notDeepEqual(isWeekday('John'),false);
 
     });
 

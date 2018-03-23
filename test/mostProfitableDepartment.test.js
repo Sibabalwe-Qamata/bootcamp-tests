@@ -37,7 +37,7 @@ describe('The mostProfitableDepartment function' , function(){
     
     
     
-      it('It should return false since the Inputed department is not the most profitable.' , function(){
+      it('Inputed variable(department) is not deeply equal to the correct profitable department in the given object.' , function(){
           assert.notDeepEqual(mostProfitableDepartment([
     {department : 'hardware', sales : 4500, day : 'Monday'},
     {department : 'outdoor', sales : 1500, day : 'Monday'},

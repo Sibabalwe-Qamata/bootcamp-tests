@@ -6,7 +6,7 @@ describe('The greet function' , function(){
         
     });
     
-     it('Expected to throw an error, since the expected result is not the same as the input.' , function(){
+     it('Expected output is not deeply equal to the input variable.' , function(){
         
          
         assert.notDeepEqual(greet('Mlu'), 'Hello, siba');

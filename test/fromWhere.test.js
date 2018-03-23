@@ -8,7 +8,7 @@ describe('The fromWhere function' , function(){
         assert.equal(fromWhere('CC'),"Some other place!");
 
     });
-      it('It should return Unknown town since the inputed registration is incorrect.' , function(){
+      it('Expected result is not deeply equal to the input registration number plate. Hence the town will be returned as Unknown Town.' , function(){
         
         assert.notDeepEqual(fromWhere('XXX'),"Unknown Town");
         assert.notDeepEqual(fromWhere(' '),"Unknown Town");
